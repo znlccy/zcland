@@ -17,6 +17,7 @@
         <module>zcland-service</module>
         <module>zcland-feign</module>
         <module>zcland-zuul</module>
+        <module>zcland-web</module>
     </modules>
     <description>
         土地贷款商城项目(采用前后端分离技术)

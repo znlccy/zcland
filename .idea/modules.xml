@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/zcland-web/zcland-back/zcland-back.iml" filepath="$PROJECT_DIR$/zcland-web/zcland-back/zcland-back.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zcland-web/zcland-index/zcland-index.iml" filepath="$PROJECT_DIR$/zcland-web/zcland-index/zcland-index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zcland-web/zcland-web.iml" filepath="$PROJECT_DIR$/zcland-web/zcland-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/zcland-zuul/zcland-zuul.iml" filepath="$PROJECT_DIR$/zcland-zuul/zcland-zuul.iml" />
     </modules>
   </component>
