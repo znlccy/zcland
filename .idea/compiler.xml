@@ -6,18 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="zcland-back" />
+        <module name="zcland-common" />
         <module name="zcland-user-service" />
+        <module name="zcland-goods-service" />
         <module name="zcland-index" />
-        <module name="zcland-gateway" />
         <module name="zcland-zuul" />
         <module name="zcland-order-service" />
         <module name="zcland-feign" />
         <module name="zcland-land-service" />
         <module name="zcland-system-service" />
-        <module name="zcland-common" />
+        <module name="zcland-back" />
         <module name="zcland-config" />
-        <module name="zcland-goods-service" />
+        <module name="zcland-gateway" />
         <module name="zcland-eureka" />
       </profile>
     </annotationProcessing>

@@ -29,6 +29,12 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
+        <!-- 依赖注入lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
         <!-- 依赖注入Redis -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
