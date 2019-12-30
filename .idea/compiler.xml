@@ -6,21 +6,40 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="zcland-common" />
         <module name="zcland-user-service" />
-        <module name="zcland-gateway" />
+        <module name="zcland-goods-service" />
+        <module name="zcland-index" />
         <module name="zcland-zuul" />
         <module name="zcland-order-service" />
         <module name="zcland-feign" />
         <module name="zcland-land-service" />
         <module name="zcland-system-service" />
-        <module name="zcland-common" />
+        <module name="zcland-back" />
         <module name="zcland-config" />
-        <module name="zcland-goods-service" />
+        <module name="zcland-gateway" />
         <module name="zcland-eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="zcland-zuul" target="1.5" />
+      <module name="zcland-zuul" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zcland-back" options="-parameters" />
+      <module name="zcland-common" options="-parameters" />
+      <module name="zcland-config" options="-parameters" />
+      <module name="zcland-eureka" options="-parameters" />
+      <module name="zcland-feign" options="-parameters" />
+      <module name="zcland-gateway" options="-parameters" />
+      <module name="zcland-goods-service" options="-parameters" />
+      <module name="zcland-index" options="-parameters" />
+      <module name="zcland-land-service" options="-parameters" />
+      <module name="zcland-order-service" options="-parameters" />
+      <module name="zcland-system-service" options="-parameters" />
+      <module name="zcland-user-service" options="-parameters" />
+      <module name="zcland-zuul" options="-parameters" />
+    </option>
   </component>
 </project>

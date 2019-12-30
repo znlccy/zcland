@@ -2,6 +2,21 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcland-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcland-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcland-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcland-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcland-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcland-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcland-service/zcland-goods-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcland-service/zcland-land-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcland-service/zcland-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcland-service/zcland-system-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcland-service/zcland-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcland-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcland-web/zcland-back" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcland-web/zcland-index" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zcland-zuul" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

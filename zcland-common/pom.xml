@@ -10,6 +10,30 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>zcland-common</artifactId>
+    <description>
+        基础公共类
+    </description>
 
+    <dependencies>
 
+        <!-- 依赖Mybatis Plus -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatisplus-spring-boot-starter</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+
+        <!-- 依赖注入MySQL -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <!-- 依赖注入Redis -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+    </dependencies>
 </project>
