@@ -23,7 +23,7 @@ import java.util.Date;
 @AllArgsConstructor
 @ToString
 @ApiModel(value = "Goods", description = "商品实体类")
-@TableName(value = "tb_goods")
+@TableName(value = "TB_GOODS")
 public class Goods extends Model<Goods> implements Serializable {
 
     /**

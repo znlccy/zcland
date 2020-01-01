@@ -25,7 +25,7 @@ import java.util.Date;
 @AllArgsConstructor
 @ToString
 @ApiModel(value = "Role", description = "角色实体类")
-@TableName(value = "tb_role")
+@TableName(value = "TB_ROLE")
 public class Role extends Model<Role> implements Serializable {
 
     /**

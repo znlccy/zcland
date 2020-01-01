@@ -26,7 +26,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@TableName(value = "tb_permission")
+@TableName(value = "TB_PERMISSION")
 @ApiModel(value = "Permission", description = "权限实体类")
 public class Permission extends Model<Permission> implements Serializable {
 

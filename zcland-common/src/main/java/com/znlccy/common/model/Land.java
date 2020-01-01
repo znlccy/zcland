@@ -28,7 +28,7 @@ import java.util.Date;
 @AllArgsConstructor
 @ToString
 @ApiModel(value = "Land", description = "土地实体类")
-@TableName(value = "tb_land")
+@TableName(value = "TB_LAND")
 public class Land extends Model<Land> implements Serializable {
 
     /**
@@ -53,53 +53,63 @@ public class Land extends Model<Land> implements Serializable {
     /**
      * 土地面积
      */
+    @TableField(value = "AREA")
     @ApiModelProperty(value = "土地面积", required = false)
     private BigDecimal area;
 
     /**
      * 土地租金
      */
+    @TableField(value = "RENT_AMOUNT")
     @ApiModelProperty(value = "土地租金", required = false)
     private BigDecimal rentAmount;
 
     /**
      * 土地租用日期
      */
+    @TableField(value = "RENT_DATE")
     @ApiModelProperty(value = "土地租用日期", required = false)
     private Date rentDate;
 
     /**
      * 土地租用有效期
      */
+    @TableField(value = "RENT_VALIDATE")
     @ApiModelProperty(value = "土地租用有效期", required = false)
     private Date rentValidate;
 
     /**
      * 土地拥有者
      */
+    @TableField(value = "OWNER")
     @ApiModelProperty(value = "土地拥有者", required = false)
     private Long owner;
 
     /**
      * 土地承包者
      */
+    @TableField(value = "CONTRACTOR")
     @ApiModelProperty(value = "土地承包者", required = false)
     private Long contractor;
 
     /**
      * 土地合同
      */
+    @TableField(value = "CONTRACT")
     @ApiModelProperty(value = "土地合同", required = false)
     private Long contract;
 
     /**
      * 创建时间
      */
-
+    @TableField(value = "CREATE_TIME")
+    @ApiModelProperty(value = "创建时间", required = false)
     private Date createTime;
 
     /**
      * 更新时间
      */
+    @TableField(value = "UPDATE_TIME")
+    @ApiModelProperty(value = "更新时间", required = false)
     private Date updateTime;
 }

@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
+import java.util.Date;
 
 /**
  * ClassName: Order
@@ -25,7 +26,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @AllArgsConstructor
 @ApiModel(value = "Order", description = "订单实体类")
-@TableName(value = "tb_order")
+@TableName(value = "TB_ORDER")
 public class Order extends Model<Order> implements Serializable {
 
     /**
@@ -50,10 +51,28 @@ public class Order extends Model<Order> implements Serializable {
     /**
      * 订单数量
      */
+    @TableField(value = "NUMBER")
+    @ApiModelProperty(value = "订单数量", required = false)
     private Integer number;
 
     /**
      * 订单商品
      */
+    @TableField(value = "GOODS_ID")
+    @ApiModelProperty(value = "订单商品", required = false)
     private Long goodsId;
+
+    /**
+     * 创建时间
+     */
+    @TableField(value = "CREATE_TIME")
+    @ApiModelProperty(value = "CREATE_TIME", required = false)
+    private Date createTime;
+
+    /**
+     * 更新时间
+     */
+    @TableField(value = "UPDATE_TIME")
+    @ApiModelProperty(value = "UPDATE_TIME", required = false)
+    private Date updateTime;
 }

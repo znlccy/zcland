@@ -24,7 +24,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@TableName(value = "tb_role_permission")
+@TableName(value = "TB_ROLE_PERMISSION")
 @ApiModel(value = "RolePermission")
 public class RolePermission extends Model<RolePermission> implements Serializable {
 
