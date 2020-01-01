@@ -1,0 +1,9 @@
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*.xml
+  type-aliases-package: com.example.springbootdemo.entity
+  type-aliases-super-type: java.lang.Object
+  type-handlers-package: com.example.springbootdemo.typeHandler
+  type-enums-package: com.example.springbootdemo.enums
+
+server:
+  port: 8001
