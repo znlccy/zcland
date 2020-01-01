@@ -1,5 +1,9 @@
 package com.znlccy.common.model;
 
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.extension.activerecord.Model;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
@@ -24,7 +28,8 @@ import java.util.Date;
 @AllArgsConstructor
 @ToString
 @ApiModel(value = "Land", description = "土地实体类")
-public class Land implements Serializable {
+@TableName(value = "tb_land")
+public class Land extends Model<Land> implements Serializable {
 
     /**
      * 声明序列化
@@ -34,12 +39,14 @@ public class Land implements Serializable {
     /**
      * 土地主键
      */
+    @TableId(value = "ID")
     @ApiModelProperty(value = "土地主键", required = false)
     private Long id;
 
     /**
      * 土地地址
      */
+    @TableField(value = "LOCATION", exist = true)
     @ApiModelProperty(value = "土地地址", required = false)
     private String location;
 

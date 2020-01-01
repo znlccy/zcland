@@ -1,11 +1,10 @@
 package com.znlccy.common.model;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.extension.activerecord.Model;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -24,7 +23,8 @@ import java.util.Date;
 @AllArgsConstructor
 @ToString
 @ApiModel(value = "Goods", description = "商品实体类")
-public class Goods implements Serializable {
+@TableName(value = "tb_goods")
+public class Goods extends Model<Goods> implements Serializable {
 
     /**
      * 声明序列化

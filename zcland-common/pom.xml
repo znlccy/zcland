@@ -19,8 +19,8 @@
         <!-- 依赖Mybatis Plus -->
         <dependency>
             <groupId>com.baomidou</groupId>
-            <artifactId>mybatisplus-spring-boot-starter</artifactId>
-            <version>1.0.5</version>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.2.0</version>
         </dependency>
 
         <!-- 依赖注入MySQL -->
